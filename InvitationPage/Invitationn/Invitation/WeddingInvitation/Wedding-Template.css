@@ -1,0 +1,204 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1458px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 628px;
+  height: 628px;
+  background-image: url("images/tsrsrsrsr-min.jpg");
+  background-position: 50% 50%;
+  margin: 60px 96px 0 auto;
+}
+
+.u-section-1 .u-image-2 {
+  width: 389px;
+  height: 389px;
+  background-image: url("images/bride-holds-lush-bouquet-with-delicate-flowers-colors_8353-11436.jpg");
+  background-position: 50% 50%;
+  margin: -270px auto 0 156px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 119px;
+  height: 119px;
+  margin: -419px auto 0 69px;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 250px;
+  height: 250px;
+  margin: 39px 69px 0 auto;
+}
+
+.u-section-1 .u-image-3 {
+  width: 276px;
+  height: 276px;
+  background-image: url("images/re.jpg");
+  background-position: 50% 50%;
+  margin: -704px auto 0 105px;
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 579px;
+  margin-top: 412px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 50px 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-family: "Julius Sans One";
+  margin: 42px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 39px 553px 0 128px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: -39px 115px 0 566px;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  width: 359px;
+  margin: -37px auto 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 129px auto 0;
+}
+
+.u-section-1 .u-text-7 {
+  margin: -36px auto 0 136px;
+}
+
+.u-section-1 .u-text-8 {
+  margin: -36px 102px 0 auto;
+}
+
+.u-section-1 .u-text-9 {
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-text-10 {
+  margin: -28px auto 0 96px;
+}
+
+.u-section-1 .u-text-11 {
+  margin: -28px 60px 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-3 {
+    margin-right: 453px;
+    margin-left: 28px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 15px;
+    margin-left: 466px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-right: 92px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 301px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 301px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1335px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 540px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -182px;
+    margin-left: 151px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 161px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 161px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1086px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 340px;
+    margin-top: 18px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: -370px;
+  }
+
+  .u-section-1 .u-image-3 {
+    margin-left: 64px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: 320px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-left: 84px;
+  }
+}

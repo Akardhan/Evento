@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Birthday Invitation - Evento</title>
+</head>
+
+
+<body>
+   <div class="container hero" id="CV-form">
+      <!--layout of HTML page-->
+      <h1 class="text-center my-2">Birthday Invitation</h1>
+      <p class="text-center">By Evento</p>
+
+
+      <div class="row">
+
+          <div class="col-md-6">
+              <!--                                                                         First coloum                                                                -->
+              <h3>Birthday Information</h3>
+
+
+
+              <div class="form-group mt-2">
+                  <label for="nameField">Birthday Person Name</label>
+                  <input type="text" id="nameField" placeholder="Enter here" class="form-control">
+              </div>
+
+              <div class="form-group mt-2">
+                  <label for="ageField">Age of Birthday Person</label>
+                  <input type="text" id="ageField" placeholder="Enter first alphabet " class="form-control">
+              </div>
+
+              
+
+             
+
+
+
+              
+
+             
+
+              <div class="form-group mt-1">
+                  <label for="dateField">Date </label>
+                  <input type="text" id="dateField" placeholder="Enter here" class="form-control">
+              </div>
+
+             
+          </div>
+          <div class="col-md-6">
+              <!--                                                               second coloum                                                                       -->
+              
+
+              <div class="form-group mt-2">
+                  <label for="timeField">Timings</label>
+                  <input type="text" id="timeField" placeholder="Enter here" class="form-control">
+              </div>
+
+              <div class="form-group mt-2">
+                  <label for="venueField">Venue</label>
+                  <textarea id="venueField" placeholder="Enter here" class="form-control" rows="5"></textarea>
+              </div>
+
+            
+              
+          </div>
+
+      </div>
+
+      <div class="container text-center mt-2">
+          <button onclick="generateCV()" class="btn btn-primary btn-lg">Generate Invitation</button>
+      </div>
+
+  </div>
+
+  </div>
+
+<!-- ************************************************************************************************************************************************************************************************************************************************************       -->
+    
+<div class="container" id = "temp">
+    
+        <div class="word_split wrapper">
+        <span class="word word1" >You </span>
+        <span class="word word2">are</span>
+        <span class="word word3">invited</span>
+        <span class="word word4">to</span>
+        <span class="word word5" id="nameT">Aryan's</span>
+        <span class="word word6" id="ageT">20th </span>
+        <span class="word word7">birthday</span>
+        <span class="word word8">Please</span>
+        <span class="word word9">be  </span>
+        <span class="word word10">present</span>
+        <span class="word word11">at</span>
+        <span class="word word12">the</span>
+        <span class="word word13">party</span>
+          
+          <div class="bubble1">
+           <span class="the-arrow1"></span>
+            Heyy! <br/>
+         </div>
+        <div class="bubble2">
+           <span class="the-arrow2"></span>
+          <img src="../temp4/birthday.jpeg"/>
+         </div>
+        <div class="bubble3">
+           <span class="the-arrow3"></span>
+          <h1>Venue</h1>
+          <br>
+          
+         <h2 id="venueT">Radisson Blu , Kaiserbagh Officer's Colony, Qaisar Bagh, Lucknow </h2>
+         </div>
+        <div class="bubble4">
+           <span class="the-arrow4"></span>
+          <h1>Date</h1>
+         
+          <h2 id= "dateT">31st October , Thursday</h2>
+         </div>
+        <div class="bubble5">
+           <span class="the-arrow5"></span>
+          <h3>Join us on this auspicios day and make it more special and memorable by your presence.</h3>
+         </div>
+        <div class="bubble6">
+           <span class="the-arrow6"></span>
+          <h1>Timings</h1>
+          <h2 id = "timeT">7.00 PM Evening</h2>
+         </div>
+        <div class="bubble7">
+           <span class="the-arrow7"></span>
+           <br>
+           <br>
+          <h1>Don't forget the date</h1>
+         </div>
+        <div class="bubble8">
+           <span class="the-arrow8"></span>
+           <br>
+           
+           <br>
+           <br>
+          <h1>MADE BY EVENTO</h1>
+         </div>   
+      </div>
+         
+      <button onclick="printCV()">PRINT Invite</button>
+    </div>
+    </div>
+    <script src="script.js"></script>  <!--end container-->
+</body>
+</html>
+<!-- ************************************************************************************************************************************************************************************************************************************************************       -->

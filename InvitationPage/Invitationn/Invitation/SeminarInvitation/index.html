@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <title>Webinar / Seminar Invitation</title>
+</head>
+
+<body>
+    <div class="container hero" id="CV-form">
+        <!--layout of HTML page-->
+        <h1 class="text-center my-2">Webinar / Seminar Invitation</h1>
+        <p class="text-center">By Evento</p>
+
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <!--                                                                         First coloum                                                                -->
+                <h3>Event Information</h3>
+
+
+
+                <div class="form-group mt-2">
+                    <label for="nameField">Event Head Title</label>
+                    <input type="text" id="nameField" placeholder="Enter here" class="form-control">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="nickField">Event Sub Title</label>
+                    <input type="text" id="nickField" placeholder="Enter first alphabet " class="form-control">
+                </div>
+
+
+
+                <div class="form-group mt-6">
+                    <label for="">Selecte any Event Related Photo</label>
+                    <input id="imgField" type="file" class="form-control">
+
+                </div>
+
+
+
+                <div class="form-group mt-2" id="ex">
+                    <label for="">Dates & Venue</label>
+                    <textarea id="ExpertiseField" placeholder="Enter here" class="form-control exField"
+                        rows="3"></textarea>
+
+                    <div class="container text-center mt-2" id="exAddButton">
+                        <button onclick="addexWEField()" class="btn btn-primary btn-sm">Add</button>
+                    </div>
+                </div>
+
+
+                <p class="secondary-text mt-3">Importnts Links</p>
+
+                <div class="form-group mt-1">
+                    <label for="EmailField">Email ID</label>
+                    <input type="text" id="EmailField" placeholder="Enter here" class="form-control">
+                </div>
+
+                <div class="form-group mt-1">
+                    <label for="fbField">Meeting Link (if Webinar )</label>
+                    <input type="text" id="fbField" placeholder="Enter here" class="form-control">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="instaField">website</label>
+                    <input type="text" id="instaField" placeholder="Enter here" class="form-control">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="linkedField">LinkedIn</label>
+                    <input type="text" id="linkedField" placeholder="Enter here" class="form-control">
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <!--                                                               second coloum                                                                       -->
+                <h3>Professional Information</h3>
+
+                <div class="form-group mt-2">
+                    <label for="jobField">Event Mode ( Ex. Offline / Online)</label>
+                    <input type="text" id="jobField" placeholder="Enter here" class="form-control">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="">Event Details</label>
+                    <textarea id="objectiveField" placeholder="Enter here" class="form-control" rows="5"></textarea>
+                </div>
+
+
+                <div class="form-group mt-2" id="aq">
+                    <label for="">Speaker Details</label>
+                    <textarea placeholder="Enter here" class="form-control aqField" rows="3"></textarea>
+
+                    <!-- new textaraea -->
+
+                    <div class="container text-center mt-2" id="aqAddButton">
+                        <button onclick="addNewAQField()" class="btn btn-primary btn-sm">Add</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container text-center mt-3">
+            <button onclick="generateCV()" class="btn btn-primary btn-lg">Generate Invitation</button>
+        </div>
+
+    </div>
+
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="rela-block page" id="CV-template">
+        <div class="rela-block top-bar">
+            <div class="caps name">
+                <div class="abs-center" id="nameT">Event Name</div>
+            </div>
+        </div>
+        <div class="side-bar">
+            <div class="mugshot">
+                <img src="https://www.kindpng.com/picc/m/69-691018_blank-profile-picture-gmail-hd-png-download.png"
+                    alt="" class="img-fluid myimg" id="imgTe">
+                <div class="logo">
+                    <svg viewbox="0 0 80 80">
+
+                        <path d="M 10 10 L 52 10 L 72 30 L 72 70 L 30 70 L 10 50 Z" stroke-width="2.5" fill="none">
+                    </svg>
+                    <p class="logo-text" id="nickT">kj</p>
+                </div>
+            </div>
+            <!-- <p id="addressT">Sue</p> -->
+
+            <p id="contactT">1-800-CALLPLZ</p>
+            <p id="emailT">emailsareforsquares@gmail.com</p><br>
+            <p class="rela-block social "> <a id="twitT" href="#1">http://www.Gmeet.com</a></p>
+            <p class="rela-block social "> <a id="pinT" href="#1">http://www.wxample.com</a></p>
+            <p class="rela-block social linked-in"> <a id="linkT" href="#1">http://www.linkedin.com</a></p>
+
+            <p class="rela-block caps side-header">Expertise</p> -->
+
+            <h3> WE EXPECT YOUR GRACIOUS PRESENCE IN THE EVENT</h3>
+            <p class="rela-block caps side-header">Date , Timings & Venues</p>
+            <ul id="exT">
+                <li class="rela-block list-thing">HTML</li>
+                <li class="rela-block list-thing">JAVA</li>
+                <li class="rela-block list-thing">PHYTON</li>
+            </ul>
+
+        </div>
+
+        <div class="rela-block content-container">
+            <h2>YOU ARE CO-ORDIALLY INVITED TO THE EVENT </h2>
+            <h2 class="rela-block caps title" id="jobT">Jr Front-End Developer</h2>
+            <div class="rela-block separator"></div>
+            <div class="rela-block caps greyed">Event Details</div>
+            <p class="long-margin" id="objectiveT">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem minus ex quas, r
+                epudiandae molestiae magnam! A recusandae ad saepe nihil! Velit nobis corporis commodi nemo saepe
+                impedit atque eos eius? </p>
+            <div class="rela-block caps greyed">Speaker Details</div>
+            <ul id="weT">
+                <h3>Job #1</h3>
+                <p class="light">First </p>
+                <p class="justified">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore nobis itaque
+                    corrupti cupiditate, error tenetur sapiente o
+                    fficiis natus libero at mollitia eum praesentium autem laudantium molestias reiciendis earum beatae.
+                    Provident ut quae qui officiis, est perferendis! Dolores iusto, reiciendis dolorum deserunt
+                    sint voluptas natus possimus numquam, voluptatem ad repellat? Optio fugiat id eius neque
+                    magni, itaque dolorem deleniti. Aperiam. </p>
+
+                <h3>Job #2</h3>
+                <p class="light">Second </p>
+                <p class="justified">Beard before they sold out photo booth distillery health goth. Hammock franzen
+                    green
+                    juice meggings, ethical sriracha tattooed schlitz mixtape man bun stumptown swag whatever distillery
+                    blog. Affogato iPhone normcore, meggings actually direct trade lomo plaid franzen shoreditch. Photo
+                    booth pug paleo austin, pour-over banh mi scenester vice food truck slow-carb. Street art kogi
+                    normcore,
+                    vice everyday carry crucifix thundercats man bun raw denim echo park pork belly helvetica vinyl.
+                </p>
+
+                <h3>Job #3</h3>
+                <p class="light">Third </p>
+                <p class="justified">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quisquam quasi
+                    aliquam, dolore illum totam sunt mollitia veritatis nemo dicta ullam officia tempore repellat
+                    suscipit nam dignissimos odio corporis consequuntur?
+                    Obcaecati assumenda vel, possimus corrupti exercitationem odio, ea repellendus voluptates hic
+                    ducimus inventore omnis qui ipsa doloremque deleniti iusto! Vel sint, ex voluptas dolores
+                    necessitatibus nostrum vitae delectus ab voluptatibus.</p>
+            </ul>
+
+            <div class="container mt-4 text-center">
+                <button onclick="printCV()" class="btn background">Print Invitation</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
